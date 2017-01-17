@@ -1,0 +1,186 @@
+[
+  {
+    "selected" : false,
+    "frame" : "{{0, 0}, {320, 480}}",
+    "class" : "View",
+    "nodes" : [
+      {
+        "selected" : false,
+        "frame" : "{{0, 379}, {153, 33}}",
+        "class" : "Label",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "border_width" : 1,
+          "font_size" : 18,
+          "font_name" : "<System>",
+          "frame" : "{{85, 224}, {150, 32}}",
+          "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+          "uuid" : "B8683899-4627-442E-8FF1-A6BCC4EC7093",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "",
+          "name" : "label2",
+          "corner_radius" : 0
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{0, 299}, {153, 33}}",
+        "class" : "View",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "border_width" : 1,
+          "frame" : "{{110, 190}, {100, 100}}",
+          "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+          "class" : "View",
+          "uuid" : "B0AA88B1-DBA0-47E1-AF04-625542B5DDFE",
+          "corner_radius" : 0,
+          "name" : "view1"
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{204, 270}, {80, 80}}",
+        "class" : "Button",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "action" : "self.button_go",
+          "border_width" : 1,
+          "image_name" : "iob:arrow_right_b_256",
+          "frame" : "{{108, 162}, {80, 32}}",
+          "title" : "",
+          "class" : "Button",
+          "uuid" : "791BF65B-1ECF-4535-9AE0-203CB1D8C6DB",
+          "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+          "corner_radius" : 0,
+          "font_size" : 15,
+          "name" : "button_go"
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{100, 300}, {51, 31}}",
+        "class" : "Switch",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "action" : "self.switch_random",
+          "frame" : "{{123, 163}, {51, 31}}",
+          "value" : true,
+          "class" : "Switch",
+          "name" : "switch_random",
+          "uuid" : "DBC445B8-9EAE-48EB-B63A-223B9495B592"
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{100, 380}, {51, 31}}",
+        "class" : "Switch",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "action" : "self.switch_reverse",
+          "frame" : "{{123, 163}, {51, 31}}",
+          "value" : true,
+          "class" : "Switch",
+          "name" : "switch_reverse",
+          "uuid" : "24BB4DF2-27A8-4104-A4E9-4B17A17F004F"
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{6, 13}, {278, 192}}",
+        "class" : "TableView",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "flex" : "WH",
+          "data_source_items" : "aaa",
+          "row_height" : 30,
+          "frame" : "{{48, 78}, {200, 200}}",
+          "uuid" : "722EEAD0-0760-43E3-A574-CFC9A317B03D",
+          "background_color" : "RGBA(1.0, 1.0, 1.0, 1.0)",
+          "data_source_number_of_lines" : 1,
+          "data_source_delete_enabled" : false,
+          "data_source_font_size" : 18,
+          "class" : "TableView",
+          "name" : "table_view"
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{204, 373}, {80, 80}}",
+        "class" : "Button",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "action" : "self.button_cancel",
+          "border_width" : 1,
+          "image_name" : "iob:close_round_32",
+          "frame" : "{{108, 162}, {80, 32}}",
+          "title" : "",
+          "class" : "Button",
+          "uuid" : "791BF65B-1ECF-4535-9AE0-203CB1D8C6DB",
+          "corner_radius" : 0,
+          "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+          "font_size" : 15,
+          "name" : "button_cancel"
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{1, 300}, {100, 31}}",
+        "class" : "Label",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "font_size" : 18,
+          "frame" : "{{72, 183}, {150, 32}}",
+          "uuid" : "0746428D-5945-4BC2-A4DD-5B61D7F166FB",
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "Random",
+          "name" : "label1",
+          "font_name" : "<System>"
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{1, 380}, {99, 31}}",
+        "class" : "Label",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "name" : "label1",
+          "frame" : "{{72, 183}, {150, 32}}",
+          "uuid" : "0746428D-5945-4BC2-A4DD-5B61D7F166FB",
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "Reverse",
+          "font_size" : 18,
+          "font_name" : "<System>"
+        }
+      }
+    ],
+    "attributes" : {
+      "flex" : "",
+      "enabled" : true,
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "name" : "",
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)"
+    }
+  }
+]

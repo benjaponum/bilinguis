@@ -1,0 +1,117 @@
+[
+  {
+    "selected" : false,
+    "frame" : "{{0, 0}, {320, 568}}",
+    "class" : "View",
+    "nodes" : [
+      {
+        "selected" : false,
+        "frame" : "{{25, 336}, {120, 80}}",
+        "class" : "Button",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "uuid" : "2A03850F-7653-443D-9DC8-C7AD33C709DC",
+          "name" : "button1",
+          "corner_radius" : 0,
+          "frame" : "{{120, 268}, {80, 32}}",
+          "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+          "border_width" : 1,
+          "title" : "Back",
+          "action" : "self.button_back",
+          "font_bold" : true,
+          "class" : "Button",
+          "image_name" : "iob:arrow_left_c_32",
+          "font_size" : 25
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{155, 336}, {120, 80}}",
+        "class" : "Button",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "border_width" : 1,
+          "frame" : "{{120, 268}, {80, 32}}",
+          "title" : "Remembered",
+          "uuid" : "2A03850F-7653-443D-9DC8-C7AD33C709DC",
+          "font_bold" : true,
+          "class" : "Button",
+          "corner_radius" : 0,
+          "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+          "name" : "button1",
+          "font_size" : 15
+        }
+      },
+      {
+        "selected" : true,
+        "frame" : "{{25, 25}, {250, 100}}",
+        "class" : "Label",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "font_name" : "<System>",
+          "frame" : "{{85, 268}, {150, 32}}",
+          "uuid" : "AB1ED6E5-A298-4575-86F9-F20068FC16B0",
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "Label",
+          "font_size" : 24,
+          "name" : "label1"
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{25, 133}, {250, 100}}",
+        "class" : "Label",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "font_name" : "<System>",
+          "frame" : "{{85, 268}, {150, 32}}",
+          "uuid" : "AB1ED6E5-A298-4575-86F9-F20068FC16B0",
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "Label",
+          "name" : "label2",
+          "font_size" : 24
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{25, 248}, {250, 80}}",
+        "class" : "Button",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "uuid" : "2A03850F-7653-443D-9DC8-C7AD33C709DC",
+          "image_name" : "iob:arrow_right_c_32",
+          "corner_radius" : 0,
+          "frame" : "{{120, 268}, {80, 32}}",
+          "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+          "border_width" : 1,
+          "title" : "Next",
+          "action" : "self.button_next",
+          "font_bold" : true,
+          "class" : "Button",
+          "name" : "button1",
+          "font_size" : 25
+        }
+      }
+    ],
+    "attributes" : {
+      "flex" : "",
+      "enabled" : true,
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "name" : "",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)"
+    }
+  }
+]
