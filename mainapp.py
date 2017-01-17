@@ -26,17 +26,11 @@ class Menu(object):
         f.parse_content()
         self.pairs = f.pairs
 
-    def switch_random(self, sender):
+    def switch_action(self, sender):
         if sender.value:
-            self.options["random"] = True
+            self.options[sender.name.lstrip("switch_")] = True
         else:
-            self.options["random"] = False
-
-    def switch_reverse(self, sender):
-        if sender.value:
-            self.options["reverse"] = True
-        else:
-            self.options["reverse"] = False
+            self.options[sender.name.lstrip("switch_")] = False
 
     def button_go(self, sender):
         if self.pairs:
